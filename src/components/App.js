@@ -24,7 +24,7 @@ class App extends Component {
     render() {
         return (
             <MoviesList movies={this.state.movies} />
-        )
+        );
     }
 }
 // Step 13: Outside the class, export the App class as a default.

@@ -2,13 +2,13 @@
 import React from 'react';
 
 // Create a const arrow function called MoviesList.
-const MoviesList =() => {
+const MoviesList =(props) => {
     // Return an unordered list
     return (
         <ul>
             {props.movies.map((movie, i) => <li key={i}>{movie}</li>)}
         </ul>
-    )
+    );
     // Inside the unordered list, embed a javascript expression (curly brackets).
     // Inside the javascript expression, map the movies array
     // The function inside map should take in two arguments, movie and i (for index).
